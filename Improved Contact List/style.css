@@ -1,0 +1,45 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+table {
+    margin-top: 20px;
+    /* Width added later */
+    width: 60%;
+    border-radius: 3px;
+}
+
+  table, tr, td {
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: gray;
+} 
+
+fieldset {
+  padding:10px;
+  border-radius:10px;
+}
+
+label {
+  display:inline-block;
+  margin-bottom:10px;
+}
+
+input {
+  float:right;
+  margin-right:70px;
+  width:150px;
+}
+
+input:invalid {
+  background-color:pink;
+}
+
+input:valid {
+  background-color:lightgreen;
+}
+
+form {
+  float: right;
+  width: 20%;
+}
