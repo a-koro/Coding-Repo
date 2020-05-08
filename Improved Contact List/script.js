@@ -122,15 +122,15 @@ class ContactManager {
 
     load() {
         if (localStorage.contacts !== undefined) {
-            // the array of contacts is savec in JSON, let's convert
-            // it back to a reak JavaScript object.
+            // the array of contacts is saved in JSON, let's convert
+            // it back to a real JavaScript object.
             this.listOfContacts = JSON.parse(localStorage.contacts);
         }
     }
 
     save() {
         // We can only save strings in local Storage. So, let's convert
-        // ou array of contacts to JSON
+        // our array of contacts to JSON
         localStorage.contacts = JSON.stringify(this.listOfContacts);
     }
 
